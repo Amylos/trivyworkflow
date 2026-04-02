@@ -17,5 +17,4 @@ jobs:
       with:
         image-ref: 'bkimminich/juice-shop'
         severity: 'HIGH,CRITICAL'
-        format: 'json'
         exit-code: '1'
