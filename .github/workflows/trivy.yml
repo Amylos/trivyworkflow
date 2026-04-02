@@ -15,6 +15,6 @@ jobs:
     - name: Run Trivy Scan
       uses: aquasecurity/trivy-action@v0.35.0
       with:
-        image-ref: 'vulnerabilities/web-dvwa:latest'
+        image-ref: 'bkimminich/juice-shop'
         severity: 'HIGH,CRITICAL'
         exit-code: '1'
